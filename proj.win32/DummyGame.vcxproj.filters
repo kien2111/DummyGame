@@ -13,6 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Tools">
+      <UniqueIdentifier>{a1b93786-73c8-4a4a-a9ba-d919415f172a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene">
+      <UniqueIdentifier>{1c6d83b9-aca8-4605-91b5-77bdcc49c2fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Character">
+      <UniqueIdentifier>{b2f91c86-4d5e-406f-8765-933e89e8338c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shader">
+      <UniqueIdentifier>{a06b48b9-3bbd-482d-a8e5-726a77614ba7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="../src/example.cpp">
@@ -24,6 +36,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="../src/example.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="constant.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
