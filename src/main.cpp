@@ -8,7 +8,7 @@
 #include "ox/Stage.hpp"
 #include "ox/DebugActor.hpp"
 #include "example.h"
-
+#include "../proj.win32/constant.h"
 
 using namespace oxygine;
 

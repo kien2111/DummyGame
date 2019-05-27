@@ -1,1 +1,2 @@
-﻿proj.win32/DummyGame.VC.VC.opendb
+﻿*.VC.opendb
+*.VC.db
